@@ -101,3 +101,136 @@ body {
     display: block;
     padding: 12px 20px
 }
+
+.hero__heading {
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: none;
+    letter-spacing: 1.2px;
+    font-family: Allura, cursive;
+    font-size: 24px;
+}
+
+.title {
+    max-width: min(437px, 100%);
+    text-align: center;
+}
+
+.hero_main {
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 32px;
+}
+
+.sector {
+    max-width: 1440px;
+    padding: 60px 0;
+    margin: 0 auto;
+    background-color: #ff4646;
+}
+
+.hero {
+    color: #fff;
+    background: no-repeat center center/cover url(bg-snow.png), no-repeat center center/cover url(bg-ball.png) #ff4646;
+    border-radius: 20px 20px 0 0;
+}
+
+.button_simple {
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 12px;
+    padding: 20px 32px;
+    outline: none;
+    background: #181c29;
+    border: none;
+    border-radius: 20px;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.button_simple:hover {
+    background: #fff;
+    color: #181c29;
+}
+
+.container {
+    max-width: 1276px;
+    margin: 0 auto;
+}
+
+.hero__container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 60px 0;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+/* Sector ABOUT */
+
+.about.sector {
+    padding: 60px 8px;
+}
+
+.about {
+    background: #ff4646 url('bg-snow.png') no-repeat center center/cover;
+}
+
+.about_inside-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.about_words {
+    display: flex;
+    flex-basis: 480px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 60px;
+}
+
+.about_img {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.hero__heading_color {
+    color: #ff4646;
+}
+
+.title_fix {
+    text-align: left;
+}
+
+.title_two {
+    font-weight: 600;
+    line-height: 152%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
