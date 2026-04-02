@@ -234,3 +234,95 @@ section {
     letter-spacing: 4px;
     font-size: 24px;
 }
+
+
+/* SECTOR CAROUSEL*/
+
+.carousel_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+}
+
+.carousel_title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.carousel_controls {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.slider_way {
+    display: flex;
+    gap: 20px;
+    transform: translate(0);
+    transition: all .4s;
+}
+
+.slider_item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.slider_text {
+    font-weight: 600;
+    line-height: 0;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 80px;
+}
+
+.slider_img {
+    --size: 200px;
+    width: var(--size);
+    height: var(--size);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.slider_img-main {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    overflow: hidden;
+    background: url(bg-snow.png) no-repeat center center / cover #ff4646;
+}
+
+.carousel .sector {
+    padding: 0px 8px;
+}
+
+.control {
+    --size: 54px;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    padding: 16px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    stroke: #fff;
+    transition: all .4s;
+}
+
+.button_back {
+    cursor: default;
+    border: 1px solid rgba(255, 255, 255, .2);
+    stroke: #fff3;
+}
+
+.arrow_icon {
+    --size: 24px;
+    width: var(--size);
+    height: var(--size);
+}
