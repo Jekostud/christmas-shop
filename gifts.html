@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christmas shop</title>
+    <title>Gifts</title>
 
 
     <!--     <link ICON> -->
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
-
 </head>
 
 <body>
@@ -24,14 +23,14 @@
         </div>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link link" href="./gifts.html">Gifts</a>
+                <li class="nav__item active">
+                    <a class="nav__link link" href="#">Gifts</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link link" href="#about">About</a>
+                    <a class="nav__link link" href="./index.html#about">About</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link link" href="#best">Best</a>
+                    <a class="nav__link link" href="./index.html#best">Best</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link link" href="#footer">Contacts</a>
@@ -41,94 +40,18 @@
 
         </nav>
     </header>
-    <main class="main">
-        <!-- SECTOR HERO-->
-        <section class="hero sector">
-            <div class="hero__container container">
-                <p class="hero__heading"> Merry Christmas</p>
-                <h1 class="hero_main title">Gift yourself the magic of new possibilities</h1>
-                <a href="#" class="button button_simple">Explore Magical Gifts</a>
-                <p class="hero__heading">and Happy New Year</p>
-        </section>
-        <!--SECTOR ABOUT-->
-        <section class="about sector" id="about">
-            <div class="about_container container">
-                <div class="about_inside-wrapper">
-                    <div class="about_words">
-                        <p class="hero__heading hero__heading_color">About</p>
-                        <h2 class="title title_two title_fix">Unleash your inner superhero!</h2>
-                        <div class="words_container">
-                            <p class="words_container_paragraph">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about_img">
-                        <img class="about_img_right" src="../christmas-shop/assets/santa.png" alt="Santa image">
-                    </div>
+    <!--MAIN-->
+    <main class="gifts_main">
+        <section class="second_gifts sector">
+            <div class="gifts_container container">
+                <h1 class="hero_main title hero_two">Achieve health, harmony, and inner strength</h1>
+                <div class="gifts_buttons">
+                    <button class="but active">All</button>
+                    <button class="but">For work</button>
+                    <button class="but">For health</button>
+                    <button class="but">For harmony</button>
                 </div>
-            </div>
-        </section>
-        <!--SECTOR CAROUSEL-->
-        <section class="carousel sector" id="sector">
-            <div class="carousel_container container">
-                <div class="carousel_title">
-                    <p class="hero__heading">Become Happier!</p>
-                    <h2 class="title_two title">In the new 2025</h2>
-                </div>
-                <div class="carousel_slider">
-                    <div class="slider_container">
-                        <div class="slider_way">
-                            <div class="slider_item">
-                                <p class="slider_text">Live</p>
-                                <div class="slider_img">
-                                    <img src="../christmas-shop/assets/snowman.png" alt="snowman" class="slider_img-main">
-                                </div>
-                            </div>
-                            <div class="slider_item">
-                                <p class="slider_text">Create</p>
-                                <div class="slider_img">
-                                    <img src="../christmas-shop/assets/christmas-trees.png" alt="christmasTrees" class="slider_img-main">
-                                </div>
-                            </div>
-                            <div class="slider_item">
-                                <p class="slider_text">Love</p>
-                                <div class="slider_img">
-                                    <img src="../christmas-shop/assets/christmas-tree-ball.png" alt="christmasTreeBall" class="slider_img-main">
-                                </div>
-                            </div>
-                            <div class="slider_item">
-                                <p class="slider_text">Dream</p>
-                                <div class="slider_img">
-                                    <img src="../christmas-shop/assets/fairytale-house.png" alt="fairytaleHouse" class="slider_img-main">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel_controls">
-                    <button class="control button_back">
-                        <div class="arrow_icon">
-                            <img src="../christmas-shop/assets/arrow-left.svg" alt="leftArrow">
-                        </div>
-                    </button>
-                    <button class="control button_forward">
-                        <div class="arrow_icon">
-                            <img src="../christmas-shop/assets/arrow-right.svg" alt="rightArrow">
-                        </div>
-                    </button>
-                </div>
-            </div>
-
-        </section>
-
-        <!--SECTOR BEST-->
-        <section class="best sector" id="best">
-            <div class="best_container container">
-                <div class="carousel_title">
-                    <p class="hero__heading">Best Gifts</p>
-                    <h2 class="title_two title">Especially for you</h2>
-                </div>
-                <div class="best_balls_container">
+                <div class="gifts_cards">
                     <div class="best_ball">
                         <div class="best_ball_img">
                             <img class="best_image" alt="Merge Master" src="./assets/gift-for-work.png">
@@ -136,6 +59,69 @@
                         <div class="best_ball_text">
                             <p class="best_text_work">For Work</p>
                             <h3 class="best_text_two">Console.log guru</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-health.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_health">For Health</p>
+                            <h3 class="best_text_two">Step Master</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-work.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_work">For Work</p>
+                            <h3 class="best_text_two">Bug Magnet</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-work.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_work">For Work</p>
+                            <h3 class="best_text_two">Shortcut Cheater</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-health.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_health">For Health</p>
+                            <h3 class="best_text_two">Posture Levitation</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-harmony.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_harmony">For Harmony</p>
+                            <h3 class="best_text_two">Bug Acceptance Guru</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-health.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_health">For Health</p>
+                            <h3 class="best_text_two">Snack Resister</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-harmony.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_harmony">For Harmony</p>
+                            <h3 class="best_text_two">Error Laugher</h3>
                         </div>
                     </div>
                     <div class="best_ball">
@@ -162,43 +148,27 @@
                         </div>
                         <div class="best_ball_text">
                             <p class="best_text_harmony">For Harmony</p>
+                            <h3 class="best_text_two">Joy Charger</h3>
+                        </div>
+                    </div>
+                    <div class="best_ball">
+                        <div class="best_ball_img">
+                            <img class="best_image" alt="Merge Master" src="./assets/gift-for-harmony.png">
+                        </div>
+                        <div class="best_ball_text">
+                            <p class="best_text_harmony">For Harmony</p>
                             <h3 class="best_text_two">Spontaneous Coding Philosopher</h3>
                         </div>
                     </div>
 
                 </div>
+
+
             </div>
-        </section>
-        <!--CTA SECTOR-->
-        <section class="cta sector">
-            <div class="cta_container container">
-                <h2 class="title_two title">Ready to start your journey to a better version of yourself?
-                </h2>
-                <a href="#" class="button button_simple">Explore Magical Gifts</a>
-                <div class="cta_textClock">
-                    <p class="cta_text">The New Year is Coming Soon..</p>
-                    <div class="cta_clock">
-                        <div class="clock clock_days">
-                            <p class="number">47</p>
-                            <p class="number_string">Days</p>
-                        </div>
-                        <div class="clock clock_hours">
-                            <p class="number">5</p>
-                            <p class="number_string">Hours</p>
-                        </div>
-                        <div class="clock clock_minutes">
-                            <p class="number">34</p>
-                            <p class="number_string">Minutes</p>
-                        </div>
-                        <div class="clock clock_seconds">
-                            <p class="number">12</p>
-                            <p class="number_string">Seconds</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </section>
     </main>
+
     <!--FOOTER-->
     <footer class="footer" id="footer">
         <div class="footer_container container">
@@ -258,7 +228,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>
