@@ -566,6 +566,10 @@ section {
     transition: all .4s;
 }
 
+.footer_icon:hover path {
+    stroke: #ff4646
+}
+
 .footer_cards:first-child {
     margin-bottom: 54px;
 }
