@@ -507,6 +507,10 @@ section {
     transition: 0.4s;
 }
 
+.footer_card_tap:hover {
+    color: #FF4646;
+}
+
 .footer_card_tap {
     display: flex;
     flex-direction: column;
@@ -656,8 +660,15 @@ section {
     background-color: #ff46461a;
 }
 
-.best_ball:hover {
-    box-shadow: 0px 0px 40px rgb(255, 255, 255);
-    transition: box-shadow 0.3s ease-in-out;
-    transform: scale(1.01);
+.best_ball:hover h3 {
+    color: #ff4646;
+}
+
+
+/* .best_ball:hover p {
+    color: #ff4646;
+} */
+
+.best_ball:hover p:nth-child(2) {
+    color: #ff4646;
 }
