@@ -507,6 +507,10 @@ section {
     transition: 0.4s;
 }
 
+.footer_card_tap:hover {
+    color: #FF4646;
+}
+
 .footer_card_tap {
     display: flex;
     flex-direction: column;
