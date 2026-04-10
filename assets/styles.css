@@ -672,3 +672,43 @@ section {
 .best_ball:hover p:nth-child(2) {
     color: #ff4646;
 }
+
+
+/* RESPONSIVE DESIGN BLOCK */
+
+@media screen and (max-width: 768px) {
+    .footer_card {
+        flex-basis: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about_words {
+        flex-basis: 469px;
+        padding: 60px
+    }
+    .about_img {
+        flex-basis: 68%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best_container .best {
+        padding: 0 60px
+    }
+    .best_balls_container {
+        justify-content: center
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 752px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 12px 8px
+    }
+}
